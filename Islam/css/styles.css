@@ -166,6 +166,52 @@ h4 {
   align-items: center;
 }
 
+* simple Responsive Framework */
+
+/* Large Devices Only*/
+
+@media (min-width: 1445px) 
+{
+  {
+    float: left;
+  }
+}
+
+/* Medium devices only*/
+
+@media (min-width: 1024px)
+{
+  {
+    float: left;
+  }
+}
+  
+/* small devices only*/
+
+@media (min-width: 768px;)
+{
+  {
+    float: left;
+  }
+}
+/* Extra small Devices */
+
+@media (min-width: 375px;) and (max-width: 475px;)
+{
+  {
+    float: left;
+  }
+}
+
+/* super small Devices */
+
+@media (min-width: 320px;) and (max-width: 480px;)
+{
+  {
+    float: left;
+  }
+  
+ }
 
 
 
