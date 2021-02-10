@@ -140,19 +140,6 @@ h4 {
 
 /** end of down*/
 
-@media only screen and (min-width: 768px) {
-  .center {
-    display: block;
-    text-align: center;
-    position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-  color:   #65dfc9, #6cddeb;
-  }
-}
-
 /* About Styling */
 
 .Coding {
@@ -196,11 +183,20 @@ h4 {
 }
 /* Extra small Devices */
 
-@media (min-width: 375px;) and (max-width: 475px;)
+@media (min-width: 414px;) and (max-width: 736px;)
 {
   {
     float: left;
   }
+  .background {
+  background: linear-gradient(to right top, #65dfc9, #6cddeb);
+  min-height: 98%;
+  justify-content: center;
+  margin-left: 130px;
+  margin-right: 42px;
+  width: 1000px;
+  height: 7129px;
+  
 }
 
 /* super small Devices */
